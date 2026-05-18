@@ -1,0 +1,102 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #1b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    cursor: pointer;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+}
+
+.premiumButton {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 6px 14px;
+    border: 2px solid gold;
+    border-radius: 20px;
+    background: none;
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #f2f8f8;
+    font-weight: bold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #666868;
+}
+a:hover{
+    color: #f2f8f8;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 299px;
+}
+
+.searchInput {
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    flex: 1;
+    padding-left: 10px;
+    column-gap: 10px;
+}
+
+.Icon{
+    height: 30px;
+    width: 40px;
+    /* background-color: black; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.guest{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #1b0b0b;
+    cursor: pointer;
+}

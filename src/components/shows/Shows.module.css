@@ -1,0 +1,38 @@
+.featured{
+    width: 100%;
+    height: 400px; 
+    background-color: #060707;
+    padding: 0 2%;
+
+}
+.sectiontitle{
+    color: white;
+    font-size:25px;
+}
+
+.imageconatiner{
+    display: flex;
+    column-gap: 20px;
+    padding: 2% 0;
+}
+.box img { 
+    width: 230px;
+    height: 310px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.logobox {
+    position: absolute;
+    align-items: flex-start;
+    z-index: 10;
+    padding: 0.5% 0.5%;
+}
+
+.logobox .logo {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+

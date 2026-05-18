@@ -1,0 +1,84 @@
+.slideshowContainer {
+    justify-content: center; 
+    align-items: center; 
+    height: 75vh; 
+    background-color: #000; /* Dark background */
+    display: flex;
+}
+.imageslide{
+    width: 85%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageslide img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50px;
+}
+.overlay {
+    position: relative;
+    color: white;
+    align-items: center;
+    padding: 10px 50px;
+}
+.watchButton {
+    background-color: #e60073;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style:italic;
+}
+.watchButton:hover{
+    background-color: #ff93c9;
+}
+.movieTitle {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.movieDetails {
+    font-size: 16px;
+    color: #bbb;
+    font-style: oblique;
+}
+
+.movieDescription {
+    font-size: 16px;
+    max-width: 600px;
+    color: #ddd;
+}
+.leftArrow, .rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.leftArrow {
+    left: 10px;
+}
+
+.rightArrow {
+    right: 10px;
+}
+
+.leftArrow:hover, .rightArrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
